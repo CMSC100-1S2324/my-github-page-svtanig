@@ -8,10 +8,13 @@ Degree Program: BS Computer Science
 Live Website link: https://cmsc100-1s2324.github.io/my-github-page-svtanig/
 
 Key Takeaways:
->I learned how to create and design html files using css
->Learned how to do different types of css linking
->Optimized github pages
->In summary, this week's lesson has taught a majority of what I needed to learn to start web developing
++I learned how to create and design html files using css
+
++Learned how to do different types of css linking
+
++Optimized github pages
+
++In summary, this week's lesson has taught a majority of what I needed to learn to start web developing
 
 Steps on how to create GitHub page
 
