@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(20, 19, 19);
+	background-color: black;
 	height: initial;
 	line-height: 0;
 }
@@ -45,7 +45,6 @@ body{
   }
 
 .featured{
-
 	background-color: pink;
 	border-color: pink;
 	border-style: solid;
@@ -68,8 +67,8 @@ body{
 }
 .featured-text #featured-greeting{
 	font-size: 50px;
-	border-bottom: 2px solid #000; /* Add a 1-pixel solid line (you can adjust the width and color) */
-  	margin-bottom: 17px; /* Optional: Add some space below each paragraph */
+	border-bottom: 2px solid black; 
+  	margin-bottom: 17px; 
   	padding-bottom: 25px;
 }
 .featured-container #featured-photo{
@@ -106,10 +105,14 @@ body{
 }
 .project-title{
 	color: black;
+	border-bottom: 1px solid black; 
+  	margin-bottom: 17px; 
+  	padding-bottom: 25px;
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 200%;
 	margin-top: 5%;
-	margin-bottom: 10%;
+	margin-bottom: 0;
+	
 }
 .project-item #project-photo{
 	border-radius: 20px;
@@ -123,10 +126,10 @@ body{
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-around;
+	padding: 2%;
 }
 
 .self-info-item{
-
 	border: 1px;
 	background-color: white;
 	border-color: rgb(192, 192, 192);
@@ -135,25 +138,36 @@ body{
 	border-style: solid;
 	border-radius: 10px;
 	height: 100%;
-	width: 45%;
-	padding: 10px;
+	width: 48%;
+	padding: 5px;
 	padding-bottom: 10px;
 
 }
 .self-info-title{
+	border-bottom: 1px solid black; 
+  	margin-bottom: 17px; 
+  	padding-bottom: 25px;
 	color: black;
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 200%;
 	margin-top: 5%;
 }
 .self-info-content{
-	color: pink;
+	color: black;
 	margin: 0;       /* Remove any default margin */
     padding: 0;      /* Remove any default padding */
     line-height: 1.5;
-
 }
-
+.self-info-content .skill-title{
+	color: wheat;
+	background-color: black;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 100%;
+	
+}
+.self-info-content .skill{
+	background-color: wheat;
+}
 .footnote-logo{
 	float: center;
 	height: 5%;
@@ -161,7 +175,7 @@ body{
 	
 }
 footer{
-
+	line-height: 10%;
 	height: 100%;
 	overflow: visible;
 	color: pink;
