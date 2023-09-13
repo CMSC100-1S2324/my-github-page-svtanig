@@ -4,69 +4,100 @@
 
 	<head>
 		<title>
-			My First Webpage
+			Tanig - Portfolio
 		</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<!-- internal css -->
 	</head>
 
 	<body>
-		<!-- Block elements always start in new lines -->
-		<h1> heading </h1>
-		<p>	paragraph</p>
+		<div class = "nav-bar">
+			<a class="active" >Home</a>
+			<a >Services</a>
+			<a >Contact</a>
+			<a >About</a>
+			<img src="./images/nav-bar-logo.png" style="border-radius: 10px; margin-left: 30px; margin-top: 10px;">
 
-		<div> container that can hold other html elements
-
-			<p> paragraph inside div</p>
-
-
-		<!-- in line elements don't -->
-		<span> hello </span>
-		<span> anpther span here </span>
-		Elements have attributes that are placed on the openning tags
-		<!-- href = "w2.html" is an attribute -->
-		<a href="w2.html">Click Here </a>
-
-		<!-- Singleton/Self-Enclosing/Empty tag -->
-	
-		<!-- end of inline elements -->
-
-		<!-- break line -->
-		<br>
-		<!-- horizontal rule -->
-		<hr>
 		</div>
 
-		<div class = "flex-container"> 
-
-		
-		<div class = "flex-items"> 
-			<h1> Item 1</h1>
-			<p>
-				Hello Class Container 
-			</p>
+		<div class = "featured">
+			<div class="featured-container"> 
+				<div class="featured-text">
+					<p id="featured-greeting" >Hi! I'm Steph.</p>
+					<p id="featured-message" style="font-size: 15px; justify-content: center;"> 
+						A Front-End Developer || Graphic Designer </p>
+						
+					<p> Digital Experiences, One Line of Code at a Time.</p>
+				</div>
+				<div class="featured-image" style="padding-bottom: 2%;">
+					<img id="featured-photo" src="./images/featured-photo.png">
+				</div>
+				
+			</div>
+			
 		</div>
-		<div class = "flex-items"> 
-			<h1> Item 2</h1>
 
-			<p>
-				Hello Class Container 
-			</p>
-		</div>
-		<div class = "flex-items"> 
-			<h1> Item 3</h1>
+		<div class = "flex-projects"> 
+			<div class = "project-item"> 
+				<p class="project-title"> Project 1</p>
+				<p> Details/Photo</p>
+				<img id="project-photo" src="./images/featured-photo.png">
 
-			<p>
-				Hello Class Container 
-			</p>
-		</div>
+			</div>
+			<div class = "project-item"> 
+				<p class="project-title"> Project 1</p>
+				<p> Details/Photo</p>
+				<img id="project-photo" src="./images/featured-photo.png">
+
+				
+			</div>
+			<div class = "project-item"> 
+				<p class="project-title"> Project 1</p>
+				<p> Details/Photo</p>
+				<img id="project-photo" src="./images/featured-photo.png">
+
+			</div>
+			<div class = "project-item"> 
+				<p class="project-title"> Project 1</p>
+				<p> Details/Photo</p>
+				<img id="project-photo" src="./images/featured-photo.png">
+
+			</div>		
 		<!-- end div for flex-container -->
 		</div> 
-		<div class = box>
-	    	
-	    	
-	    </div>
-		
+
+		<div class="flex-self-info">
+			<div class="self-info-item">
+				<p class="self-info-title">Skills </p>
+				<div class="self-info-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Nunc sed blandit libero volutpat sed cras ornare. Donec pretium vulputate sapien nec sagittis aliquam. 
+					Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Viverra nam libero justo laoreet sit. Vulputate sapien 
+					nec sagittis aliquam malesuada. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Malesuada proin libero 
+					nunc consequat interdum varius. Sit amet aliquam id diam. Non arcu risus quis varius quam quisque. Diam quam nulla porttitor massa 
+					id neque.
+				</div>
+			</div>
+			<div class="self-info-item">
+				<p class="self-info-title">Autobioraphy </p>
+				<div class="self-info-content"> 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Nunc sed blandit libero volutpat sed cras ornare. Donec pretium vulputate sapien nec sagittis aliquam. 
+					Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Viverra nam libero justo laoreet sit. Vulputate sapien 
+					nec sagittis aliquam malesuada. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Malesuada proin libero 
+					nunc consequat interdum varius. Sit amet aliquam id diam. Non arcu risus quis varius quam quisque. Diam quam nulla porttitor massa 
+					id neque.
+				</div>
+			</div>
+		</div>
+
+
+		<footer>
+			<img class="footnote-logo" src="./images/nav-bar-logo.png">
+			<p>Email: stephtanig@gmail.com</p>
+			<p>Westbrook Residences, Los Baños Laguna, and Personal Website Copyright Information</p>
+			<p>&copy; 2023 Stephanie Tanig. All rights reserved.</p>
+			<a href="index.html">Back To Top</a>
+		</footer>
+
 	</body>
 
 </html>

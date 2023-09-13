@@ -1,0 +1,173 @@
+body{
+	background-color: rgb(20, 19, 19);
+	height: initial;
+	line-height: 0;
+}
+
+.nav-bar{
+	height: 60px;
+	width: 100%;
+}
+
+.nav-bar a {
+	float: right;
+	color: pink;
+	text-align: center;
+	padding-top: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+
+  }
+  
+  /* Change the color of links on hover */
+  .nav-bar a:hover {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 30px;
+	border-radius: 20px;
+	color: white;
+	margin-top: 5px;
+
+  }
+  
+  /* Add a color to the active/current link */
+  .nav-bar a.active {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 60px;
+	border-radius: 20px;
+	margin-top: 5px;
+	background-color: pink;
+	color: black;
+  }
+
+.featured{
+
+	background-color: pink;
+	border-color: pink;
+	border-style: solid;
+	height: 100%;
+	width: 100%;
+}
+
+.featured-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	color: black;
+}
+.featured-container .featured-text{
+	font-family: 'Courier New', Courier, monospace;
+	justify-items: center;
+	margin-top: 9%;
+}
+.featured-text #featured-greeting{
+	font-size: 50px;
+	border-bottom: 2px solid #000; /* Add a 1-pixel solid line (you can adjust the width and color) */
+  	margin-bottom: 17px; /* Optional: Add some space below each paragraph */
+  	padding-bottom: 25px;
+}
+.featured-container #featured-photo{
+	border-radius: 100%;
+	padding: 5%;
+	margin-left: 10px;
+	border-style: dashed;
+	border-color: black;
+}
+
+.flex-projects{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.project-item{
+	width: 22%;
+	height: 400%;
+	border: 1px;
+	background-color: white;
+	border-color: rgb(192, 192, 192);
+	line-height: 3px;
+    box-shadow: 3px 3px pink;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+.project-title{
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 200%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.project-item #project-photo{
+	border-radius: 20px;
+	float: center;
+	width: 100%;
+	height: 100%;
+}
+
+.flex-self-info{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.self-info-item{
+
+	border: 1px;
+	background-color: white;
+	border-color: rgb(192, 192, 192);
+	line-height: 3px;
+    box-shadow: 3px 3px pink;
+	border-style: solid;
+	border-radius: 10px;
+	height: 100%;
+	width: 45%;
+	padding: 10px;
+	padding-bottom: 10px;
+
+}
+.self-info-title{
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 200%;
+	margin-top: 5%;
+}
+.self-info-content{
+	color: pink;
+	margin: 0;       /* Remove any default margin */
+    padding: 0;      /* Remove any default padding */
+    line-height: 1.5;
+
+}
+
+.footnote-logo{
+	float: center;
+	height: 5%;
+	width: 5%;
+	
+}
+footer{
+
+	height: 100%;
+	overflow: visible;
+	color: pink;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
