@@ -3,7 +3,7 @@ body{
 	height: initial;
 	line-height: 0;
 }
-
+/* Navigation Bar Section*/
 .nav-bar{
 	height: 60px;
 	width: 100%;
@@ -17,11 +17,9 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 20px;
-
   }
-  
-  /* Change the color of links on hover */
-  .nav-bar a:hover {
+
+.nav-bar a:hover {
 	padding-top: 30px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -29,10 +27,8 @@ body{
 	border-radius: 20px;
 	color: white;
 	margin-top: 5px;
-
   }
-  
-  /* Add a color to the active/current link */
+
   .nav-bar a.active {
 	padding-top: 30px;
 	padding-left: 20px;
@@ -44,6 +40,8 @@ body{
 	color: black;
   }
 
+
+/* Featured Section */
 .featured{
 	background-color: pink;
 	border-color: pink;
@@ -60,23 +58,37 @@ body{
 	width: 100%;
 	color: black;
 }
+
 .featured-container .featured-text{
 	font-family: 'Courier New', Courier, monospace;
 	justify-items: center;
 	margin-top: 9%;
 }
+
 .featured-text #featured-greeting{
 	font-size: 50px;
 	border-bottom: 2px solid black; 
   	margin-bottom: 17px; 
   	padding-bottom: 25px;
 }
+
 .featured-container #featured-photo{
 	border-radius: 100%;
 	padding: 5%;
 	margin-left: 10px;
 	border-style: dashed;
 	border-color: black;
+}
+
+/*Start of projects, skill, and autobaiography feature*/
+.section-banner{
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 150%;
+
 }
 
 .flex-projects{
@@ -103,17 +115,18 @@ body{
 	padding-bottom: 10px;
 	margin: 0px;
 }
+
 .project-title{
 	color: black;
 	border-bottom: 1px solid black; 
   	margin-bottom: 17px; 
   	padding-bottom: 25px;
 	font-family: 'Courier New', Courier, monospace;
-	font-size: 200%;
+	font-size: 150%;
 	margin-top: 5%;
 	margin-bottom: 0;
-	
 }
+
 .project-item #project-photo{
 	border-radius: 20px;
 	float: center;
@@ -126,7 +139,7 @@ body{
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-around;
-	padding: 2%;
+	padding: 0%;
 }
 
 .self-info-item{
@@ -141,39 +154,59 @@ body{
 	width: 48%;
 	padding: 5px;
 	padding-bottom: 10px;
-
 }
+
 .self-info-title{
 	border-bottom: 1px solid black; 
-  	margin-bottom: 17px; 
-  	padding-bottom: 25px;
+  	margin-bottom: 1%; 
+  	padding-bottom: 5%;
 	color: black;
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 200%;
 	margin-top: 5%;
 }
-.self-info-content{
+
+.self-info-text{
 	color: black;
-	margin: 0;       /* Remove any default margin */
-    padding: 0;      /* Remove any default padding */
+	margin: 0;     
+	padding: 2%;
     line-height: 1.5;
+	text-align: justify;
+	text-justify: inter-word;
 }
-.self-info-content .skill-title{
+
+.self-info-text .skill-title{
 	color: wheat;
 	background-color: black;
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 100%;
-	
+	padding-left: 2%;
+	padding-right: 2%;
 }
-.self-info-content .skill{
+
+.self-info-text .skill{
 	background-color: wheat;
+	padding-left: 2%;
+	padding-right: 2%;
 }
+
+.self-info-item #autobiography-photo{
+	margin-left: 30%;
+	width: 30%;
+	height: 30%;
+	padding: 1%;
+	border-radius: 100%;
+	border-spacing: 10px;
+	border-style:dotted;
+	border-color: pink;	
+}
+
 .footnote-logo{
 	float: center;
 	height: 5%;
 	width: 5%;
-	
 }
+
 footer{
 	line-height: 10%;
 	height: 100%;
